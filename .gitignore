@@ -5,3 +5,6 @@ __pycache__/
 .idea/
 .vscode/
 *.log
+
+# Lead database — not published publicly (privacy + canary tokens)
+output/*.csv
