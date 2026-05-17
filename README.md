@@ -19,7 +19,8 @@ polza_test/
 │   ├── leads.csv                # результат Задачи 1
 │   └── leads_personalized.csv   # результат Задачи 2 (+колонка personalization)
 ├── emails/
-│   └── sequence.md              # Задача 3: 3 письма с {{персонализация}}
+│   ├── sequence.md              # Задача 3: 3 письма с {{персонализация}}
+│   └── sequence_example.md     # пример цепочки с заполненными переменными (Mindbox)
 ├── requirements.txt
 ├── STACK.md                     # вайбкод-стек
 └── README.md
@@ -52,7 +53,7 @@ python scripts/personalize.py --engine api
 `output/leads_personalized.csv` импортируется в Google Sheets через
 **Файл → Импорт → Загрузить → CSV → Заменить лист**. Кодировка UTF-8 (BOM),
 разделитель — запятая. Цепочка писем — отдельный лист, скопированный
-из `emails/sequence.md`.
+из `emails/sequence.md`. Пример с заполненными переменными — в `emails/sequence_example.md`.
 
 ## Заметки про данные
 
